@@ -1,4 +1,4 @@
-function multiplesOf3Or5(number) {
+function multiplesOf3Or5(number) { 
   let somme = 0;
 
   for (let i = 0; i < number; i++) {
@@ -10,5 +10,5 @@ function multiplesOf3Or5(number) {
   return somme;
 }
 
-multiplesOf3Or5(1000);
+console.log(multiplesOf3Or5(1000));
 
