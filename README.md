@@ -56,7 +56,7 @@ Tu peux contribuer en :
 
 ## Licence
 
-Ce projet est sous licence MIT — libre à utiliser, modifier et partager.
+Ce projet est sous [licence MIT](LICENSE) — libre à utiliser, modifier et partager.
 
 ## Remerciements
 
