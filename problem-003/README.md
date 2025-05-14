@@ -1,4 +1,7 @@
+# Projet Euler - Problème 3
+
 > **Titre :**  Le plus grand diviseur premier 
+
 > **Langage :** JavaScript  
 
 ## Énoncé du problème
@@ -23,5 +26,6 @@ Trouver le plus grand de tous les facteurs premiers d'un nombre <n>
 Tu peux exécuter ce script avec **Node.js** :
 
 ```bash
+cd problem-002
 node index.js
 ```

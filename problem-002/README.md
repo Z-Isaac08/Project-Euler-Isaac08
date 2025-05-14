@@ -1,4 +1,7 @@
+# Projet Euler - Problème 2
+
 > **Titre :**  Somme des termes pairs de la suite de Fibonacci
+
 > **Langage :** JavaScript  
 
 ## Énoncé du problème
@@ -22,5 +25,6 @@ Trouver la somme de tous les nombres paires de la suite de fibonnaci dont les va
 Tu peux exécuter ce script avec **Node.js** :
 
 ```bash
+cd problem-002
 node index.js
 ```
