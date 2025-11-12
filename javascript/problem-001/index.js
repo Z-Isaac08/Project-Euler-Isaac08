@@ -10,5 +10,12 @@ function multiplesOf3Or5(number) {
   return somme;
 }
 
-console.log(multiplesOf3Or5(1000));
+module.exports = { multiplesOf3Or5 };
+
+if (require.main === module) {
+  const number = 1000;
+  const result = multiplesOf3Or5(number);
+  console.log(`The sum of all multiples of 3 or 5 below ${number} is: ${result}`);
+}
+
 

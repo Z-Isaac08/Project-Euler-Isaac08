@@ -5,4 +5,7 @@ def MultiplesOf3And5(limit):
       total += number
   return total
 
-print(MultiplesOf3And5(1000))
+if __name__ == "__main__" :
+  number = 1000
+  result = MultiplesOf3And5(number)
+  print(f"The sum of all multiples of 3 or 5 below {number} is: {result}")

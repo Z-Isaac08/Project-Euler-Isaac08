@@ -1,0 +1,15 @@
+def LargestPrimeFactor(n):
+  factor = 2 
+  
+  while factor * factor <= n :
+    if (n % factor == 0) :
+      n //= factor
+    else : 
+      factor += 1
+
+  return n 
+
+if __name__ == "__main__" :
+  number = 600851475143
+  result = LargestPrimeFactor(number)
+  print(f"The largest prime factor of the number {number} is: {result}")

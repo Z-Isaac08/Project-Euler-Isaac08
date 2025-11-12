@@ -20,3 +20,11 @@ function fiboEvenSum(n) {
 
   return somme;
 }
+
+module.exports = { fiboEvenSum };
+
+if (require.main === module) {
+  const number = 4000000;
+  const result = fiboEvenSum(number);
+  console.log(`The sum of even Fibonacci numbers not exceeding ${number} is: ${result}`);
+}

@@ -11,4 +11,7 @@ def sum_of_even_fibonacci(n):
     fib1, fib2 = fib2, fib1 + fib2 
   return even_sum
 
-print(sum_of_even_fibonacci(4000000))
+if __name__ == "__main__" :
+  number = 4000000
+  result = sum_of_even_fibonacci(4000000)
+  print(f"The sum of even Fibonacci numbers not exceeding {number} is: {result}")
